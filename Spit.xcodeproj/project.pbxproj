@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2BDA83381D64C28600EC6609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA83371D64C28600EC6609 /* AppDelegate.swift */; };
-		2BDA833A1D64C28600EC6609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA83391D64C28600EC6609 /* ViewController.swift */; };
 		2BDA833D1D64C28600EC6609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA833B1D64C28600EC6609 /* Main.storyboard */; };
 		2BDA833F1D64C28600EC6609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA833E1D64C28600EC6609 /* Assets.xcassets */; };
 		2BDA83421D64C28600EC6609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA83401D64C28600EC6609 /* LaunchScreen.storyboard */; };
+		2BDA834A1D64C3A900EC6609 /* WordDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA83491D64C3A900EC6609 /* WordDisplayViewController.swift */; };
+		2BDA834C1D64DC0D00EC6609 /* LemonMilk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA834B1D64DC0D00EC6609 /* LemonMilk.otf */; };
+		2BDA834F1D64E02F00EC6609 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA834E1D64E02F00EC6609 /* Song.swift */; };
+		440C094F47A055612A140AD2 /* Pods_Spit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429E4656A5D5006D879043D0 /* Pods_Spit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		057BBC7ACE71ECDCD732F050 /* Pods-Spit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spit/Pods-Spit.debug.xcconfig"; sourceTree = "<group>"; };
 		2BDA83341D64C28600EC6609 /* Spit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA83371D64C28600EC6609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BDA83391D64C28600EC6609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BDA833C1D64C28600EC6609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BDA833E1D64C28600EC6609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDA83411D64C28600EC6609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BDA83431D64C28600EC6609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BDA83491D64C3A900EC6609 /* WordDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordDisplayViewController.swift; sourceTree = "<group>"; };
+		2BDA834B1D64DC0D00EC6609 /* LemonMilk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LemonMilk.otf; sourceTree = "<group>"; };
+		2BDA834E1D64E02F00EC6609 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		429E4656A5D5006D879043D0 /* Pods_Spit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940DDEEF0DA0A7DB8EB5BA5E /* Pods-Spit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spit/Pods-Spit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C094F47A055612A140AD2 /* Pods_Spit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				2BDA83361D64C28600EC6609 /* Spit */,
 				2BDA83351D64C28600EC6609 /* Products */,
+				7563F3E0E4D5EEB2FB80EF53 /* Pods */,
+				929762F821D0F9BE3292F73D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,41 @@
 		2BDA83361D64C28600EC6609 /* Spit */ = {
 			isa = PBXGroup;
 			children = (
+				2BDA834D1D64DC1400EC6609 /* Resources */,
 				2BDA83371D64C28600EC6609 /* AppDelegate.swift */,
-				2BDA83391D64C28600EC6609 /* ViewController.swift */,
+				2BDA83491D64C3A900EC6609 /* WordDisplayViewController.swift */,
+				2BDA834E1D64E02F00EC6609 /* Song.swift */,
 				2BDA833B1D64C28600EC6609 /* Main.storyboard */,
 				2BDA833E1D64C28600EC6609 /* Assets.xcassets */,
 				2BDA83401D64C28600EC6609 /* LaunchScreen.storyboard */,
 				2BDA83431D64C28600EC6609 /* Info.plist */,
 			);
 			path = Spit;
+			sourceTree = "<group>";
+		};
+		2BDA834D1D64DC1400EC6609 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BDA834B1D64DC0D00EC6609 /* LemonMilk.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7563F3E0E4D5EEB2FB80EF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				057BBC7ACE71ECDCD732F050 /* Pods-Spit.debug.xcconfig */,
+				940DDEEF0DA0A7DB8EB5BA5E /* Pods-Spit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		929762F821D0F9BE3292F73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				429E4656A5D5006D879043D0 /* Pods_Spit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BDA83461D64C28600EC6609 /* Build configuration list for PBXNativeTarget "Spit" */;
 			buildPhases = (
+				821191783C7479FCF0AB2384 /* [CP] Check Pods Manifest.lock */,
 				2BDA83301D64C28600EC6609 /* Sources */,
 				2BDA83311D64C28600EC6609 /* Frameworks */,
 				2BDA83321D64C28600EC6609 /* Resources */,
+				DA166F6E13587195EC0EB586 /* [CP] Embed Pods Frameworks */,
+				6474C1744D4672F9660288FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +137,8 @@
 				TargetAttributes = {
 					2BDA83331D64C28600EC6609 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = HKWV3QPGW3;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -122,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDA834C1D64DC0D00EC6609 /* LemonMilk.otf in Resources */,
 				2BDA83421D64C28600EC6609 /* LaunchScreen.storyboard in Resources */,
 				2BDA833F1D64C28600EC6609 /* Assets.xcassets in Resources */,
 				2BDA833D1D64C28600EC6609 /* Main.storyboard in Resources */,
@@ -130,13 +174,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6474C1744D4672F9660288FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spit/Pods-Spit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821191783C7479FCF0AB2384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA166F6E13587195EC0EB586 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spit/Pods-Spit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BDA83301D64C28600EC6609 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDA833A1D64C28600EC6609 /* ViewController.swift in Sources */,
+				2BDA834F1D64E02F00EC6609 /* Song.swift in Sources */,
 				2BDA83381D64C28600EC6609 /* AppDelegate.swift in Sources */,
+				2BDA834A1D64C3A900EC6609 /* WordDisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +297,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -242,6 +336,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -249,23 +344,29 @@
 		};
 		2BDA83471D64C28600EC6609 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057BBC7ACE71ECDCD732F050 /* Pods-Spit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKWV3QPGW3;
 				INFOPLIST_FILE = Spit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.Spit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2BDA83481D64C28600EC6609 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940DDEEF0DA0A7DB8EB5BA5E /* Pods-Spit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HKWV3QPGW3;
 				INFOPLIST_FILE = Spit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironschool.Spit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +389,7 @@
 				2BDA83481D64C28600EC6609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
