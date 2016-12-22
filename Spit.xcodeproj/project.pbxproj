@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B834FDA1E0C6407008A8F34 /* MediaPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B834FD91E0C6407008A8F34 /* MediaPickerViewController.swift */; };
 		2BDA83381D64C28600EC6609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDA83371D64C28600EC6609 /* AppDelegate.swift */; };
 		2BDA833D1D64C28600EC6609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA833B1D64C28600EC6609 /* Main.storyboard */; };
 		2BDA833F1D64C28600EC6609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDA833E1D64C28600EC6609 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		057BBC7ACE71ECDCD732F050 /* Pods-Spit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spit/Pods-Spit.debug.xcconfig"; sourceTree = "<group>"; };
+		2B834FD91E0C6407008A8F34 /* MediaPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerViewController.swift; sourceTree = "<group>"; };
 		2BDA83341D64C28600EC6609 /* Spit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDA83371D64C28600EC6609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BDA833C1D64C28600EC6609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				2BDA834D1D64DC1400EC6609 /* Resources */,
 				2BDA83371D64C28600EC6609 /* AppDelegate.swift */,
 				2BDA83491D64C3A900EC6609 /* WordDisplayViewController.swift */,
+				2B834FD91E0C6407008A8F34 /* MediaPickerViewController.swift */,
 				2BDA834E1D64E02F00EC6609 /* Song.swift */,
 				2BDA833B1D64C28600EC6609 /* Main.storyboard */,
 				2BDA833E1D64C28600EC6609 /* Assets.xcassets */,
@@ -230,6 +233,7 @@
 				2BDA834F1D64E02F00EC6609 /* Song.swift in Sources */,
 				2BDA83381D64C28600EC6609 /* AppDelegate.swift in Sources */,
 				2BDA834A1D64C3A900EC6609 /* WordDisplayViewController.swift in Sources */,
+				2B834FDA1E0C6407008A8F34 /* MediaPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
