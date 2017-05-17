@@ -8,5 +8,7 @@ target 'Spit' do
   # Pods for Spit
 
   pod 'SnapKit'
+  pod 'Alamofire'
+  pod 'Firebase/Core'
 
 end
